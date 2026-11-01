@@ -1,0 +1,12 @@
+# Seconds of waiting before the game begins ("Starting in 5 minutes")
+prep-seconds: 300
+# Seconds between swaps
+swap-seconds: 300
+
+# Resource pack that contains the Komika Axis font.
+# Upload DeathSwapPack.zip somewhere with a DIRECT download link and paste it here.
+resource-pack:
+  enabled: true
+  url: ""
+  sha1: "5e2b3993b855b12c878fbf4823501f8e35d3d59a"
+  force: false

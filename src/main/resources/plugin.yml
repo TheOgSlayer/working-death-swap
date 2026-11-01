@@ -1,0 +1,14 @@
+name: DeathSwap
+version: 1.0.0
+main: com.deathswap.DeathSwap
+api-version: '1.21'
+description: Swap locations every 5 minutes. Last player standing wins.
+commands:
+  deathswap:
+    description: Death Swap control
+    aliases: [ds]
+    usage: /deathswap <start|stop|kit>
+    permission: deathswap.admin
+permissions:
+  deathswap.admin:
+    default: op
